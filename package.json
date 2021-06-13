@@ -27,7 +27,7 @@
     "lint:fix": "prettier src/** example/src/** -w",
     "build": "rm -rf dist && tsc --build tsconfig.json",
     "docs": "typedoc --excludePrivate --out ./docs src/index.tsx --includeVersion --readme none",
-    "prepare": "yarn build"
+    "prepare": "npm run build"
   },
   "eslintConfig": {
     "extends": [
